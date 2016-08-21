@@ -37,6 +37,16 @@ p{
     font-weight: 900;
     line-height: 24px;
 }
+.blogs-list h1,
+.blogs-list h2,
+.blogs-list h3,
+.blogs-list h4,{
+    color: #fff;
+}
+.blogs-list{
+    color: #fff;
+    padding: 30px 100px;
+}
 .start-blog{
     background: #191919;
     width: 100%;
@@ -458,6 +468,202 @@ footer ul li a:hover{
 }
 .top:hover{
     opacity: 1;
+}
+
+
+.blg{
+    padding-left: 150px;
+    height: 100vh;
+    /*border: 1px solid red;*/
+}
+.blg .intro-container{
+    width: 150px;
+    height:150px;
+    background: #191919;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    /*background-image: url(../img/bl-me.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right fixed;
+    opacity: 1;
+    /*z-index: -1;*/
+    transform: rotate(20deg);
+overflow: hidden;
+display: inline-block;
+float: left;    
+box-shadow: 1px 1px 7px #191919;
+    /*position: fixed;*/
+    /*border: 70px solid transparent;
+    border-bottom: 180px solid #000;
+    border-left: 250px solid #000;*/
+
+}
+.blg .intro-container img{
+    transform: rotate(-20deg);
+    position: absolute;
+    /*right: 0;*/
+    /*opacity: 0.2;*/
+    top: -30px;
+    width: 130%;
+    left: -20px;
+
+}
+.blg .intro{
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    padding-top: 95px;
+    padding-left: 210px;
+    /*display: inline-block;*/
+    float: left;    
+position: relative;
+   
+   
+}
+.blg .intro h1{
+    margin: 10px;
+}
+.heart{
+    display: inline-block;
+    width: 29px;
+    font-size: 10px;
+    text-align: center;
+    -webkit-animation: heartmove 1s infinite; /* Chrome, Safari, Opera */
+    animation: heartmove 1s infinite;
+    height: 100px;
+    color: #da0f4b;
+}
+.blg-header{
+    position: absolute;
+    background:rgba(255,255,255,0.9);
+    z-index: 10;
+    /*box-shadow: 0px 0px 4px #191919;*/
+}
+.blg-header ul li a{
+    color: #191919;
+    font-family: 'mons-lig';
+    font-size: 1.2em;
+}
+.blg-header .logo{
+    width: 45px;
+}
+h3.by-me{
+    position: absolute;
+    top: 195px;   
+    font-family: 'mons-lig';
+    color: #9d9d9d;
+
+}
+h3.by-me a{
+    font-family: 'mons-lig';
+    color: #9d9d9d;
+    transition: all 0.2s ease-in-out;
+}
+h3.by-me a:hover{
+    color: #191919;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes heartmove {
+    0%   {font-size: 20px}
+    50%  {font-size: 26px}  
+    100% {font-size: 20px}
+}
+
+/* Standard syntax */
+@keyframes heartmove {
+    0%   {font-size: 20px}
+    50%  {font-size: 26px}  
+    100% {font-size: 20px}
+}
+.blg .intro h1{
+  font-family: 'mons-lig';
+  color: #4d4d4d;
+}
+.build-container{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    height: 100px;
+    /*border: 1px solid green;*/
+}
+.build{
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    opacity: 0.7;
+}
+.build-1{
+    z-index: 2;
+    background-image: url(../img/build-dark.png);
+    background-size: auto 100px;
+    width: 100%;
+
+
+}
+.build-2{
+    z-index: 0;
+}
+.build img{
+    height: 100px;
+}
+.blogs-list{
+    /*width: 100vw;*/
+    height: 100vh;
+    background:#191919;
+}
+.blg-header-2{
+    background-color: rgba(0,0,0,0.9);
+}
+.filter-blog ul{
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    /*border-bottom: 1px solid #4d4d4d;*/
+    padding-bottom: 15px;
+}
+.filter-blog ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    color: #9d9d9d;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.filter-blog ul li.active{
+    color: #fff;
+}
+.filter-blog ul li .line{
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    height: 2px;
+    background: #da0f4b;
+    width: 0px;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+.filter-blog ul li.active .line{
+    width: 100%;
+}
+
+.filter-blog ul li:hover{
+    color: #fff;
+
+}
+.filter-blog ul li:hover .line{
+    width: 100%;
+}
+.filter-blog ul li.light-line{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: #4d4d4d;
+    height: 1px;
+    left: 0px;
 }
 @media(max-width:640px){
     .js-blog-start{

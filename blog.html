@@ -1,0 +1,394 @@
+
+
+
+
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+     
+
+
+     <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=xxxxxxxxxxxxx";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="top">
+<i class="fa fa-chevron-up"></i>
+</div>
+     <header>
+         <div class="logo">
+            <img src="img/logo.png">
+         </div>
+         <ul>
+            <li class="desktop"><span class="lght">Visit me at</span><br><a href="http://www.jainakash.in">www.jainakash.in</a></li>
+            <li ><span class="lght">Other</span><br><a href="#">Blogs</a></li>
+         </ul>
+
+     </header>
+      <header class="header2">
+         <div class="logo">
+            <img src="img/logo.png">
+         </div>
+         <ul>
+            <li class="desktop"><span class="lght">Visit me at</span><br><a href="http://www.jainakash.in">www.jainakash.in</a></li>
+            <li><span class="lght">Other</span><br><a href="#">Blogs</a></li>
+         </ul>
+
+     </header>
+        <article class="start-blog">
+
+            <div class="cloud cloud1">
+                <img src="img/cloud1.png">
+            </div>
+
+            <div class="cloud cloud2">
+                <img src="img/cloud1.png">
+            </div>
+              <div class="desktop cloud cloud3">
+                <img src="img/cloud2.png">
+            </div>
+              <div class="cloud cloud4">
+                <img src="img/cloud3.png">
+            </div>
+
+             <div class="guy">
+                <img src="img/guy.gif">
+            </div>
+
+            <div class="js-intro">
+                <h5>Why to worry? When</h5>
+                <h1>Javascript</h1>
+                <h5>is here!</h5>
+            </div>
+        </article>
+        <article class="js-blog-start">
+        <h1 class="drk">Let's dive into Object Oriented Javascript!</h1>
+
+      
+       <div class="sec sec-one">
+       <h3 class="lght">So, what we are going to explore? &#x1F914;</h3>
+        <p class="drk"> Javascript is one of the famous and powerful language like our Hulk. And in this part we are going to explore some of the internal powers of Hulk... I mean powers of Javascript &#x1F605;<br>
+        So, We will cover up some basics of Javascript and explore the iternal properties of Javascripts Objects. Now it's time to wake up our hulk and let's get started &#x1F60E;
+      
+         </p>
+       </div>
+
+       <div class="img-section">
+         <img src="img/hulk.png">
+         <img class="hs" src="img/hulkshadow.png">
+         </div>
+<div class="clear"></div>
+       <div class="sec sec-two">
+        <h3 class="lght">Javascript is not an object oriented language so why we use Objects here? &#x1F62E;</h3>
+        <p class="drk"> Though ECMAScript(Javascript) has no concepts of classes that's why Javascript is not a purely Object Oriented Programming Language. Also, the handling of objects here is different form the other class-based programming languages like Java, C++, Python etc. Moreover in Javascript, Objects are the unorederd collections of properties each of which containes a primitive value or functions or objects. Or simply we can say that Objects is an array of values in no particular order.  <br>
+       As a conclusion, Javascript is not an Object Oriented Language but still we can use objects and treat them in a different ways. Because every superhero has his own unique and awesome power &#x1F608;
+      
+         </p>
+       </div>
+       <div class="clear"></div>
+    <h1 class="drk">First thing first, Objects and their Properties!</h1>
+      
+
+       <div class="sec sec-two">
+        <h3 class="lght">Wait, what are Objects? Are they non-living things? &#x1F615;</h3>
+        <p class="drk">Objects can be a living or non-living things but in Coding world. One of the main feature of Object based Programming languages is that they can relate real life problems using Programming Langauges. Objects are nothing but same as our real life Objects like chair, table, car etc. And over these, each objects can be categorised to a particular group which we call as a Class. Like Hulk, IronMan, Superman are all objects that can be categorised into a superhero group or Class. But here we don't have a Class system that's why we use some different approaches in Javascript. We will continue that part in second part. But first let's explore objects in details. &#x1F642;
+      
+         </p>
+       </div>
+       
+        <div class="sec sec-two">
+        <h3 class="lght">Exploring Objects in Javascript or powers of Hulk! &#x1F60E;</h3>
+        <p class="drk">As we have discussed earlier Objects are the unorederd collections of primitive values, functions or Objects. And there are many ways to create an Object in Javascript. We will see them in the next part. For now, let's take one of the famous creation method of Objects which is Literals method. This method is one the simple and most popular method among the developers now a days.Literals Objects are defined as a group of different properties or functions. Talk is cheap, let's enter into the war &#x1F910;<br>
+        Creating our first Superhero Object Literal: <br>  </p>
+        <div class="code">
+            
+            var superHero = {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;name: "Hulk",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;weight: "1400lbs",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;getName = function( ){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert(this.name)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; }<br>
+            };
+
+        </div>
+         <p class="drk">So, above we have created a Superhero object and named it as <span class="bold">superHero</span> under which we have assigned 2 properties and one function to this Object. This is a Literal representation on Objects. We have 2 properties namely <span class="bold">name</span> with value <span class="bold">Hulk</span> and <span class="bold">weight</span> with value <span class="bold">1400lbs</span>. Also, there is one function as <span class="bold">getName</span> which gives the name of the object. These properties are all created with certain characteristics that define their behavior in JavaScript.
+<br> So by executing below commands we have the following respected outputs:<br></p>
+
+         <div class="code">
+            
+           alert( superHero.name ) &nbsp;&nbsp;&nbsp;&nbsp;// Hulk<br>
+           alert( superHero.weight ) &nbsp;&nbsp;&nbsp;&nbsp;// 1400lbs<br>
+           alert( superHero.getName( ) ) &nbsp;&nbsp;&nbsp;&nbsp;// Hulk
+
+        </div>
+      <p class="drk">This is just a simple trick to create and execute the Objects. We will go into more details of Objects but before that we have to explore the characteristics of Javascript Objects Properties. &#x1F642; <br></p>
+         
+       </div>
+
+
+       <div class="sec sec-two">
+        <h3 class="lght">Time to Digging out characterisitics of Object's Properties! &#x1F608;</h3>
+         <p class="drk">Javascript Object's properties have some internal characteristics that is used to control the actual behaviour of Javascript via internal-only attributes. I know it's a little bit confusing but believe me at the end you will know everything about this. &#x1F910;<br>
+         So, these properties are cateogorised into 2 different types namely:</p>
+         <ul class="code list-types">
+         <li>
+            Data Properties
+         </li>
+         <li>
+            Accessor properties
+         </li>
+
+         </ul>
+         <p>These are the characterisitics over which Properties of Objects behave. They all are based on internal atributes and one can easily modified them. Let's go into more details and discuss all the attributes one by one. &#x1F642;<br>
+         <span class="bold">Note:</span> These attributes are internal so to represent them we enclosed each attributes in double square bracket</p>
+       </div>
+        
+         <h1 class="drk">Understanding types of Properties!</h1>
+
+         <div class="sec sec-two">
+        <h3 class="lght">Data Types Properties! Okay, so what are they? &#x1F914;</h3>
+         <p class="drk"><span class="bold">Data Types:</span> We have values for properties like value <span class="bold">Hulk</span> for property <span class="bold">name</span>. Data properties contain a single location for these values. A value can be read from or written to this loaction. It means property like <span class="bold">name</span>, <span class="bold">weight</span> have a single location assign to them and value is stored to that location. Data properties has four internal attributes namely:
+           </p>
+            <ul class="code list-types">
+         <li>
+           [[ Value ]]
+         </li>
+         <li>
+           [[ Enumerable ]]
+         </li>
+         <li>
+           [[ Writable ]]
+         </li>
+         <li>
+           [[ Configurable ]]
+         </li>
+
+         </ul>
+         <p>If we want to change any of these attribute then we have to use <span class="bold">Object.defineProperty( ) </span>method. This method contains three arguments: one is name of the object on which we have to perfome some action, second is name of the property and third is descriptor object. Descriptor object should contains attributes like Enumerable, Configurable, Value, Writable with their respected values. We can set one or all of these values to change the corresponding attribute values. We will see the related examples below. Lets go into more details and it's time control the Hulk's powers. &#x1F60E;</p>
+       </div>
+
+       <div class="sec sec-two">
+        <h3 class="lght">Data Types Attribute -  [[ Value ]]</h3>
+         <p class="drk"> <span class="bold">[[ Value ]]:</span> As name suggest, this attribute stores a value that is assigned to the property of objects. This is the location from which the property's value read and to which new value are saved. The default value for this attribute is undefined. Consider our SuperHero Object again and let's have <span class="bold">name</span> only be the property of it:<br> </p>
+        <div class="code">
+            
+            var superHero = {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;name: "Hulk"<br>
+            };
+
+        </div>
+        <p class="drk">
+            So here property <span class="bold">name</span> has the value <span class="bold">Hulk</span>, and this value get stored in <span class="bold">[[ Value ]]</span>. It means any change to <span class="bold">name</span> property's value will stored in <span class="bold">[[ Value ]].</span>
+         </p>
+       </div>
+
+       <div class="sec sec-two">
+        <h3 class="lght">Data Types Attribute -  [[ Enumerable ]]</h3>
+         <p class="drk"> <span class="bold">[[ Enumerable ]]:</span> Indicates if the property will be returned in a for-in loop. By default, this is true for all properties defined directly on an object, as in our SuperHero example.<br> </p>
+        
+       </div>
+
+
+        <div class="sec sec-two">
+        <h3 class="lght">Data Types Attribute -  [[ Configurable ]]</h3>
+         <p class="drk"> <span class="bold">[[ Configurable ]]:</span> Indicates if the property may be redefined by removing the property via delete, changing the property’s attributes, or changing the property into an accessor property. By default, this is true for all properties defined directly on an object, as in the previous example. Let's have one more object and name it Avengers. Let's make a Hulk a part of the Avengers team. First we will create an empty object and assing property and values using attribute method Object.definePropert( ) which we have discussed above. </p>
+
+       <div class="code">
+            
+             var avengerTeam = { };<br><br>
+             <span class="lght"> // Passing three arguments as object name, property name and attribute descriptor Object.</span> <br>
+            Object.defineProperty(avengerTeam, “memberName”, { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;configurable: false,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;value: "Hulk"<br> });
+
+            <br>
+            <br>
+            alert( avengerTeam.memberName ); &nbsp;&nbsp;&nbsp;&nbsp; // ”Hulk” <br>
+            delete avengerTeam.memberName; <br>
+            alert( avengerTeam.memberName );  &nbsp;&nbsp;&nbsp;&nbsp; // ”Hulk”
+
+        </div>
+        <p class="drk">
+            So here we have create a new property as <span class="bold">memberName</span> and assign a value to it using <span class="bold">[[ Value ]]</span> attribute. Also we have used <span class="bold">[[ Configurable ]]</span> property here and setting configurable to false means that the property cannot be removed from the object. The name property can't be configurable now or we can't remove it using <span class="bold">delete</span> keyword. In above example we have already deleted name property but still we can access the name property. This is because of False Configurable attribute which makes it non removable. That's interesting na... &#x1F62E;     </p>
+       </div>
+
+
+        <div class="sec sec-two">
+        <h3 class="lght">Data Types Attribute -  [[ Writable ]]</h3>
+         <p class="drk"> <span class="bold">[[ Writable ]]:</span> Indicates if the property’s value can be changed. By default, this is true for all properties defined directly on an object, as in the our SuperHero example. Again let's make another empty Object of avengerTeam and use Object.definedProperty() method to assign the property and values with attribut Writable. Have a look:<br>  </p>
+
+       <div class="code">
+            
+             var avengerTeam = { };<br><br>
+             <span class="lght"> // Passing three arguments as object name, property name and attribute descriptor Object.</span> <br>
+            Object.defineProperty(avengerTeam, “memberName”, { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;writable: false,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;value: "Hulk"<br> });
+
+            <br>
+            <br>
+            alert( avengerTeam.memberName ); &nbsp;&nbsp;&nbsp;&nbsp; // ”Hulk” <br>
+            avengerTeam.memberName = "IronMan"; <br>
+            alert( avengerTeam.memberName );  &nbsp;&nbsp;&nbsp;&nbsp; // ”Hulk”
+
+        </div>
+        <p class="drk">
+            So here we have create a new property as <span class="bold">memberName</span> and assign a value to it using <span class="bold">[[ Value ]]</span> attribute. And we have used <span class="bold">[[ Writable ]]</span> property here and setting writable to false means that the property memberName can't be override. In above example we have assigned a new value to memberNmae as IronMan but still we get the old property value. This is because of False Writable attribute which makes it only readable value. In this way we can a make a property read only property. No one then can replace Hulk from Avengers Team. That's interesting too na... &#x1F62E;     </p>
+       </div>
+
+
+ <div class="sec sec-two">
+        <h3 class="lght">Now we know Data Types Properties but what are Accessor Properties then? &#x1F914;</h3>
+         <p class="drk"><span class="bold">Accessor Types:</span> So we have explored Data Types Properties, now it's time to check out Accessor type Properties. <br>
+         Accessor properties do not contain a data value like Data properties. Instead, they contain a combination of a getter function and a setter function (though both are not necessary). When an accessor property is read from, the getter function is called, and it’s the function’s responsibility to return a valid value.It also has four attributes namely:
+           </p>
+            <ul class="code list-types">
+         <li>
+           [[ Get ]]
+         </li>
+         <li>
+           [[ Set ]]
+         </li>
+         <li>
+           [[ Enumerable ]]
+         </li>
+         <li>
+           [[ Configurable ]]
+         </li>
+
+         </ul>
+         <p>So we have already studies about [[ Enumerable ]] and [[ Configurable ]] in Data properties and in Accessor properties they have some functioning. Here two terms have been added: one is <span class="bold">[[ get ]]</span> which is a function to call when the property is read from. The default value is undefined. and another one is <span class="bold">[[ set ]]</span> which is a function to call when the property is written to. The default value is undefined. Accessor properties also uses Object.defineMethod( ) as we can use Accessor attributes explicitly. Let's take an exmaple for this</p>
+
+         <div class="code">
+            var hulkMovie = { <br>
+               &nbsp;&nbsp;&nbsp;&nbsp; _year: 2010, <br>
+               &nbsp;&nbsp;&nbsp;&nbsp; part: 1 <br>};<br><br>
+            Object.defineProperty(hulkMovie, “year”, {<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp; get: function( ){<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  return this._year; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;},<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp; set: function(newValue){<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  if (newValue > 2010) {<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this._year = newValue;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.part += newValue - 2010;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                   <br> &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            });<br>
+            book.year = 2011; <br>
+            alert(hulkMovie.part); &nbsp;&nbsp;&nbsp;&nbsp; // 2
+         </div>
+         <p>
+             So, in above example we have an object of Hulk Movie and we are checking wether the Hulk movie is part 1 or part 2 based on the year. Get and Set are acting as attributes here. Get return the year value and set is setting up the new value to year and update <span class="bold">part</span> property of objects. And assigning a new value year as 2011 it updates the part property using set function and get return this value. In this way Accessor Types are useful. That's all about the Accessor types properties. &#x1F604;<br> 
+             <span class="bold">Note:</span> The underscore on <span class="bold">_year</span> is a common notation to indicate that a property is not intended to be accessed from outside of the object’s methods.
+
+         </p>
+       </div>
+
+        <h1 class="drk">Time to Summarize the powers of Hulk!</h1>
+
+         <div class="sec sec-two">
+        <h3 class="lght">What we have learnt so far? &#x1F914;</h3>
+        <p class="drk">We have explored some basics of Objects in Javascript, there properties and gone through the details of Properties Types where we found 2 Types namely Data Types and Accessor Types and studied how to implement them. As a result, we have assigned our Hulk to Avengers team and check the latest version of Hulk Movie. &#x1F60E;
+      
+         </p>
+       </div>
+
+       <div class="sec sec-two">
+        <h3 class="lght">What's next? &#x1F914;</h3>
+        <p class="drk">Second part will introduce Spider Man and his powers. It will contain some amazing approaches for the creation of Objects in Javascript. We will also see objects implementations and explore Constructors, Inheritance.<br>
+        Till then use your Hulk Powers to develop awesome Applications. Because world needs your creativity. &#x1F60E;
+      
+         </p>
+       </div>
+
+       <h1 class="drk">Your words are really meant for me, Just say them!</h1>
+       <div class="fb-comments" data-href="https://www.jainakash.in/blogs/jsobjects1" data-numposts="5" ></div>
+
+       <h2 class="bold thanks">Thanks for giving your time, hope you like it! &#x1F60A;</h2>
+       <div class="hr-line">
+    </div>
+      
+        </article>
+
+        <footer>
+         <section class="about"> 
+            <div class="pro-pic">
+            <img src="img/picme.png">
+            </div>
+            <div class="details-me">
+            <h3 class="lght lght2 ">Hi! <br>I'm <span class="white">Akash Jain</span><br>
+            Frontend Developer at <span class="white">Springboard</span></h3>
+            </div>
+        </section>
+
+
+        <div class="row">
+
+        <div class="col col-4">
+         <h4 class="msg"> Leave your message at <br><a href="mailto:akashjain993@gmail.com"><i class="fa fa-envelope"></i> <span class="lght white">akashjain993@gmail.com</span></a></h4>
+        </div>
+        <div class="col col-4">
+         <h4 class="msg"> Visit me at <br><a href="http://www.jainakash.in"><i class="fa fa-globe"></i> <span class="lght white">www.jainakash.in</span></a></h4>
+        </div>
+        <div class="col col-4">
+         <h4 class="msg"> Like, View or Follow me at <br>
+            <ul>
+                <li><a href="https://www.facebook.com/jainakashin/" target="_blank" =""><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://in.linkedin.com/in/jainakashin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/aka-jain" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.behance.net/akashjain993" target="_blank"><i class="fa fa-behance"></i></a></li>
+                <li><a href="https://angel.co/akashjain993" target="_blank"><i class="fa fa-angellist"></i></a></li>
+                
+            </ul></h4>
+        </div>
+
+        </div>
+
+       
+        
+            <h5 class="create">Creations of Akash Jain @ 2016 <div class="fb-like" data-href="https://www.facebook.com/jainakashin/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div></h5>
+
+
+            
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
